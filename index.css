@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+
+.mit {
+    background-color: burlywood;
+     margin-right: 68px;
+     margin-left: 68px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+
+nav > div{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav > ul{
+        display: flex;
+        list-style: none;
+}
+
+ul > li{
+    padding-right: 8px;
+    font-size: 20px;
+    font-style: italic;
+}
+ul > li:hover{
+     background-color: blue;
+     color: white;
+}
+
+main{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 200px 560px 40px ;
+}
+
+img{
+    border-radius: 100%;
+}
+
+#you > h1{
+    padding: 1px;
+}
+#p1{
+      color: brown;
+      padding-bottom: 20px;
+
+}
+
+button{
+    margin-top: 40px;
+    border: none;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: aqua;
+    color: gray;
+}

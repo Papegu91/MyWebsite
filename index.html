@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body class="mit">
+    <nav>
+        <div>DevelopedByPalGu.&COPY;</div>
+        <ul>
+            <li href="#"> Home</li>
+            <li href="#">About </li>
+            <li href="#">Skills </li>
+            <li href="#">Services </li>
+        </ul>
+     </nav>
+     <main>
+        <section id="class">
+             <p>Linked in</p>
+             <p>Email</p>
+             <p>Github</p>
+       </section>
+
+       <section id="you">
+             <h1>Hey, I'M Paul Gudoi</h1>
+             <p id="p1">Software and Web Developer</p>
+             <p>I'm a self driven and passionate dedicated and enthusiastic with focus for creating an effective solution.</p>
+
+     <br> 
+             <p>I'm passionate  and much oblige of high and experienced Software Skills that  meets the needs of  your solution given to all the clients who need help.lets work as one and bring this new World of Technoloy to life. </p>
+
+             <button href="gmail.com">Contact Me</button> 
+        </section>
+        <section id="img">
+            <img src="c:\Users\Gudoi\Pictures\Camera Roll\IMG-20210106-WA0003.jpg" alt="My image" height="200px" width="200px">
+        </section>
+     </main>
+     <script>
+          let today = new Date();
+          let year = today.getFullYear();
+         let month = today.getMonth();
+        let day = today.getDay();
+          let myDate = document.querySelector("date");
+          if(month == 5){
+             month = "May"
+
+         }
+        myDate.textContent =' ${day}th of ${month} ${year};'
+     </script>
+    <!---- <ul id="class">
+         <div>Achievements</div>
+         <li> <h>Progress in this course(100%) <progress value="100" max="100"></progress></h> </li>
+          <li> <h>Progress in the specialization capstone(100%)<progress value="100" max="100"></progress></h></li>
+          <li> <h>Progress in life goals(100%)<progress value="100" max="100"></progress></h2></h>
+            </ul>-->
+</body>
+</html>
